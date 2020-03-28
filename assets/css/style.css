@@ -402,3 +402,11 @@ button[type="submit"] {
 /* -----------------------------------------------   Map --*/
 
 div#map {min-height: 360px;}
+
+/* -----------------------------------------------   GitHub--*/
+
+.small-name {
+  font-size: 0.75em;
+  color: #a9a9a9;
+  font-style: italic;
+}
