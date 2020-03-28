@@ -48,6 +48,18 @@
     background-color: #1F2232;
 }
 
+.bg-menu-color-github {
+    background-color: #1F2232;
+    opacity: 0.8;
+}
+
+.bg-color-conferences {
+    background-color: #596475;
+    opacity: 0.9;
+    color: white;
+}
+
+
 
 /*---------------------------special paddings/ margins/ text---*/
 
