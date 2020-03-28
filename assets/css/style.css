@@ -10,15 +10,15 @@
 }
 
 .bg-color-contact {
-    background-color: #fff;
+    background-color: #3498db;
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #4B3F72;
 }
 
 .ui-menu-color-resume {
-    background-color: #9b59b6;
+    background-color:  #34344A;
 }
 
 .ui-menu-color-contact {
@@ -30,12 +30,25 @@
 }
 
 .bg-color-personal-info {
-    background-color: #f4f4f4;
+    background-color: #4B3F72;
+    opacity: 0.7;
 }
 
+
 .bg-color-work-history {
-    background-color: #9b59b6;
+    background-color: #34344A;
+    opacity: 0.8;
 }
+
+.ui-menu-color-interests{
+    background-color: #596475;
+}
+
+.ui-menu-color-github {
+    background-color: #1F2232;
+}
+
+
 /*---------------------------special paddings/ margins/ text---*/
 
 h1, h2, h3, h4 {
@@ -75,6 +88,9 @@ h1, h2, h3, h4 {
     margin-bottom: 40px;    
 }
 
+.text-white {
+    color: #fff;
+}
 /*---------------------------Heading---*/
 header {
     margin: 0;
