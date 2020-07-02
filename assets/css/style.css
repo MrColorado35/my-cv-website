@@ -50,7 +50,7 @@
 
 .bg-menu-color-github {
     background-color: #1F2232;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .bg-color-conferences {
@@ -63,15 +63,30 @@
     color: antiquewhite;
 }
 
+.blackish {
+    color: #00000a;
+}
+
+.black {
+    color: black;
+}
 
 /*---------------------------special paddings/ margins/ text---*/
-.p a {
+.none{
     text-decoration: none;
 
 }
 
 .center {
     text-align: center;
+}
+
+.obj-center {
+    position: center;
+    object-position: center;
+    margin: 10%;
+    width: 80%;
+
 }
 
 h1, h2, h3, h4 {
@@ -116,7 +131,7 @@ h1, h2, h3, h4 {
 }
 
 .high {
-    min-height: 120px;
+    min-height: 200px;
 }
 /*---------------------------Heading---*/
 header {
@@ -437,7 +452,59 @@ br {
   line-height: 1.6em;
 }
 
+#portfolio div {
+    margin: 3%;
+}
 
+#aikido {
+    background-image: url("https://mrcolorado35.github.io/milestone-project/images/aikido13.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    border: 2px solid black;
+  
+}
+
+#tatry {
+    background-image: url("https://mrcolorado35.github.io/Milestone2/assets/images/poland_roztoka.jpg");
+    height:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;   
+    border: 2px solid black;
+}
+
+#theGame {
+    background-image: url("../images/the_Game.png");
+    height:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;   
+    border: 2px solid black;
+}
+
+#ademre {
+    background-image: url("../images/ademre.png");
+    height:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;   
+    border: 2px solid black;
+}
+
+#Pol_speak {
+    background-image: url("../images/pol_speak.png");
+    height:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;   
+    border: 2px solid black;
+}
+
+#next {
+    background-color: #111111;
+    border: 2px solid black;
+}
 
 ol,
 ul {
@@ -593,7 +660,6 @@ img {
 /* input field */
 
 #gh-username {
-  display: block;
   padding: 5px 8px;
   font-size: 1.4em;
   color: #666;
