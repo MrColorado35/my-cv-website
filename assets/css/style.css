@@ -59,9 +59,20 @@
     color: white;
 }
 
+.whiteish {
+    color: antiquewhite;
+}
 
 
 /*---------------------------special paddings/ margins/ text---*/
+.p a {
+    text-decoration: none;
+
+}
+
+.center {
+    text-align: center;
+}
 
 h1, h2, h3, h4 {
     margin: 0;
@@ -102,6 +113,10 @@ h1, h2, h3, h4 {
 
 .text-white {
     color: #fff;
+}
+
+.high {
+    min-height: 120px;
 }
 /*---------------------------Heading---*/
 header {
@@ -407,8 +422,8 @@ div#map {min-height: 360px;}
 
                 /*      As well as whole the idea of the page, all Github styling 
                 comes from the course of programming, made by the Code Institute.
-                Although I made some adjustments, to avoid usage of the communist- propaganda picture, 
-                that has been used in their  project (I'm assuming unintentionally), I am not claiming any rights to the code, the Idea whatsoever.
+                Although I made some adjustments, to make this website be my Resume.
+                I am not claiming any rights to the code, the Idea whatsoever.
                 Hope yu will have a nice day.
                 Source:
                 https://github.com/Code-Institute-Solutions/InteractiveFrontendDevelopment-Resume/tree/master/02-TheGitHubAPI/04-rendering_user_data
