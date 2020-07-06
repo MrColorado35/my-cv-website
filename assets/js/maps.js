@@ -8,7 +8,7 @@
         });
         // var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-        var labels = ["Porto", "Faro", "Barcelona", "Cavadonga", "LLanes", "Dinard", "Land's End", "Ben Nevis", "Amsterdam", "Copenhagen", "Malmo", "Gdansk", "Mazury", "Slesin", "Great Cold Valley", "Roztoka", "Zurich", "Verona", "San Marino", "Prague", "Helsinki", "Tallin", "Riga", "Vilnius", "My first workplace ever", "Viana Do Castelo" ]
+        var labels = ["Porto", "Faro", "Barcelona", "Cavadonga", "LLanes", "Dinard", "Land's End", "Ben Nevis", "Amsterdam", "Copenhagen", "Malmo", "Gdansk", "Mazury", "Slesin", "Great Cold Valley", "Roztoka", "Zurich", "Verona", "San Marino", "Prague", "Helsinki", "Tallin", "Riga", "Vilnius", "My first workplace ever", "Viana Do Castelo", "Lake District" ]
 //  Porto 41.148536, -8.517858// Faro 36.990068, -7.970075// Barcelona 41.352697, 1.949328
 // Cavadonga 43.270920, -4.991149// Llanes 43.410657, -4.794366// Dinard 48.626566, -2.072501
 // Land's End 50.065446, -5.711117// Ben Nevis 56.789167, -5.002602// Amsterdam 52.361268, 4.845030
@@ -46,6 +46,7 @@
             { lat: 54.675787, lng: 25.288327},
             { lat: 48.899370, lng: 9.065491},
             { lat: 41.692652, lng: -8.829554},
+            { lat: 54.610436, lng: -3.048260},
         ];
 
         var markers = locations.map(function(location, i){
