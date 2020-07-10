@@ -71,10 +71,14 @@
     color: black;
 }
 
+
 /*---------------------------special paddings/ margins/ text---*/
+.active {
+    border-bottom: 2px solid red;
+}
+
 .none{
     text-decoration: none;
-
 }
 
 .center {
