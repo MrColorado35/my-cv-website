@@ -558,7 +558,9 @@ img {
   max-width: 100%;
 }
 
-
+.text-decoration-none {
+    text-decoration: none;
+}
 
 /* page structure */
 
